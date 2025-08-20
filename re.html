@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Results Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="tabs">
+      <a href="index.html">Voting Page</a>
+      <a href="results.html" class="active">Results Page</a>
+    </div>
+
+    <h2>Voting Results</h2>
+    <div class="card">
+      <span>Candidate A:</span>
+      <span id="votesA">0 votes</span>
+    </div>
+    <div class="card">
+      <span>Candidate B:</span>
+      <span id="votesB">0 votes</span>
+    </div>
+    <div class="card">
+      <span>Candidate C:</span>
+      <span id="votesC">0 votes</span>
+    </div>
+
+    <div class="result" id="leadingCandidate">
+      Leading Candidate: No votes yet
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
